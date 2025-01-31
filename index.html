@@ -76,30 +76,29 @@
     </div>
 
     <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.2.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-      // https://firebase.google.com/docs/web/setup#available-libraries
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDdJIt3xbZovsOqDP-TJ_triVLGJyGZJ_M",
+    authDomain: "gestaoproteste-3a679.firebaseapp.com",
+    databaseURL: "https://gestaoproteste-3a679-default-rtdb.firebaseio.com",
+    projectId: "gestaoproteste-3a679",
+    storageBucket: "gestaoproteste-3a679.firebasestorage.app",
+    messagingSenderId: "449895550398",
+    appId: "1:449895550398:web:862c954114cbd0dc797def",
+    measurementId: "G-7KWW2WGKBD"
+  };
 
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyALiDuaWjQWpGf1LPZmcZPQV-BBuwKKfT8",
-        authDomain: "controle-de-frota-e6974.firebaseapp.com",
-        databaseURL:
-          "https://controle-de-frota-e6974-default-rtdb.firebaseio.com",
-        projectId: "controle-de-frota-e6974",
-        storageBucket: "controle-de-frota-e6974.firebasestorage.app",
-        messagingSenderId: "1014675129034",
-        appId: "1:1014675129034:web:52165ff624a38285c4aa33",
-        measurementId: "G-GGMMWCTJ5X",
-      };
-
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-    </script>
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     <script src="script.js"></script>
   </body>
 </html>
